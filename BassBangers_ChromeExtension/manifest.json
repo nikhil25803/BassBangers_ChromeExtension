@@ -1,0 +1,20 @@
+{
+    "name": "Bass Bangers",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Quick Launch",
+    
+    "icons": {
+        "128": "128.png",
+        "48": "48.png",
+        "32": "32.png",
+        "16": "16.png"
+    },
+    "web_accessible_resources": ["16.png"],
+    "browser_action": {
+        "default_icon": "16.png",
+        "default_popup": "popup.html"
+    },
+    "permissions":["activeTab"]
+
+}
